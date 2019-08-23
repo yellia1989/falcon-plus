@@ -100,16 +100,6 @@ func create(filename string, item *cmodel.GraphItem) error {
 	c.RRA("MAX", 0, 20, RRA20PointCnt)
 	c.RRA("MIN", 0, 20, RRA20PointCnt)
 
-	// 3小时一个点存3个月
-	c.RRA("AVERAGE", 0, 180, RRA180PointCnt)
-	c.RRA("MAX", 0, 180, RRA180PointCnt)
-	c.RRA("MIN", 0, 180, RRA180PointCnt)
-
-	// 12小时一个点存1year
-	c.RRA("AVERAGE", 0, 720, RRA720PointCnt)
-	c.RRA("MAX", 0, 720, RRA720PointCnt)
-	c.RRA("MIN", 0, 720, RRA720PointCnt)
-
 	return c.Create(true)
 }
 
