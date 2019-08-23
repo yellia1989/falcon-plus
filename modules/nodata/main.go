@@ -19,11 +19,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/open-falcon/falcon-plus/modules/nodata/collector"
-	"github.com/open-falcon/falcon-plus/modules/nodata/config"
-	"github.com/open-falcon/falcon-plus/modules/nodata/g"
-	"github.com/open-falcon/falcon-plus/modules/nodata/http"
-	"github.com/open-falcon/falcon-plus/modules/nodata/judge"
+	"github.com/yellia1989/falcon-plus/modules/nodata/collector"
+	"github.com/yellia1989/falcon-plus/modules/nodata/config"
+	"github.com/yellia1989/falcon-plus/modules/nodata/g"
+	"github.com/yellia1989/falcon-plus/modules/nodata/http"
+	"github.com/yellia1989/falcon-plus/modules/nodata/judge"
 )
 
 func main() {

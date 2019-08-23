@@ -15,8 +15,8 @@
 package receiver
 
 import (
-	"github.com/open-falcon/falcon-plus/modules/gateway/receiver/rpc"
-	"github.com/open-falcon/falcon-plus/modules/gateway/receiver/socket"
+	"github.com/yellia1989/falcon-plus/modules/gateway/receiver/rpc"
+	"github.com/yellia1989/falcon-plus/modules/gateway/receiver/socket"
 )
 
 func Start() {

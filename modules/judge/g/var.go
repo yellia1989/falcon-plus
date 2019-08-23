@@ -18,7 +18,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/open-falcon/falcon-plus/common/model"
+	"github.com/yellia1989/falcon-plus/common/model"
 )
 
 type SafeStrategyMap struct {

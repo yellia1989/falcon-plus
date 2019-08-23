@@ -18,17 +18,17 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/open-falcon/falcon-plus/modules/api/app/controller/alarm"
-	"github.com/open-falcon/falcon-plus/modules/api/app/controller/dashboard_graph"
-	"github.com/open-falcon/falcon-plus/modules/api/app/controller/dashboard_screen"
-	"github.com/open-falcon/falcon-plus/modules/api/app/controller/expression"
-	"github.com/open-falcon/falcon-plus/modules/api/app/controller/graph"
-	"github.com/open-falcon/falcon-plus/modules/api/app/controller/host"
-	"github.com/open-falcon/falcon-plus/modules/api/app/controller/mockcfg"
-	"github.com/open-falcon/falcon-plus/modules/api/app/controller/strategy"
-	"github.com/open-falcon/falcon-plus/modules/api/app/controller/template"
-	"github.com/open-falcon/falcon-plus/modules/api/app/controller/uic"
-	"github.com/open-falcon/falcon-plus/modules/api/app/utils"
+	"github.com/yellia1989/falcon-plus/modules/api/app/controller/alarm"
+	"github.com/yellia1989/falcon-plus/modules/api/app/controller/dashboard_graph"
+	"github.com/yellia1989/falcon-plus/modules/api/app/controller/dashboard_screen"
+	"github.com/yellia1989/falcon-plus/modules/api/app/controller/expression"
+	"github.com/yellia1989/falcon-plus/modules/api/app/controller/graph"
+	"github.com/yellia1989/falcon-plus/modules/api/app/controller/host"
+	"github.com/yellia1989/falcon-plus/modules/api/app/controller/mockcfg"
+	"github.com/yellia1989/falcon-plus/modules/api/app/controller/strategy"
+	"github.com/yellia1989/falcon-plus/modules/api/app/controller/template"
+	"github.com/yellia1989/falcon-plus/modules/api/app/controller/uic"
+	"github.com/yellia1989/falcon-plus/modules/api/app/utils"
 )
 
 func StartGin(port string, r *gin.Engine) {

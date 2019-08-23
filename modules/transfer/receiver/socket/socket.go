@@ -15,7 +15,7 @@
 package socket
 
 import (
-	"github.com/open-falcon/falcon-plus/modules/transfer/g"
+	"github.com/yellia1989/falcon-plus/modules/transfer/g"
 	"log"
 	"net"
 )

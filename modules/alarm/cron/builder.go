@@ -17,9 +17,9 @@ package cron
 import (
 	"fmt"
 
-	"github.com/open-falcon/falcon-plus/common/model"
-	"github.com/open-falcon/falcon-plus/common/utils"
-	"github.com/open-falcon/falcon-plus/modules/alarm/g"
+	"github.com/yellia1989/falcon-plus/common/model"
+	"github.com/yellia1989/falcon-plus/common/utils"
+	"github.com/yellia1989/falcon-plus/modules/alarm/g"
 )
 
 func BuildCommonSMSContent(event *model.Event) string {

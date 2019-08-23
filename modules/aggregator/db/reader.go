@@ -16,7 +16,7 @@ package db
 
 import (
 	"fmt"
-	"github.com/open-falcon/falcon-plus/modules/aggregator/g"
+	"github.com/yellia1989/falcon-plus/modules/aggregator/g"
 	"log"
 )
 

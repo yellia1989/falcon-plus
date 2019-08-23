@@ -16,7 +16,7 @@ package store
 
 import (
 	"container/list"
-	"github.com/open-falcon/falcon-plus/common/model"
+	"github.com/yellia1989/falcon-plus/common/model"
 	"sync"
 )
 
