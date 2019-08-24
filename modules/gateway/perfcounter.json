@@ -1,4 +1,5 @@
 {
+    "hostname": "",
     "tags": "service=gateway",
     "bases": ["debug","runtime"],
     "push": {
